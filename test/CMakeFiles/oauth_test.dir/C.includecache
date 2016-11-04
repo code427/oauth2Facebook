@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/oauth2/original/OAuth2/test/main.c
+stdio.h
+-
+oauth2.h
+/root/oauth2/original/OAuth2/test/oauth2.h
+
+include/oauth2.h
+

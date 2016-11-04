@@ -1,0 +1,2 @@
+/root/oauth2/original/OAuth2/src/CMakeFiles/oauth.dir
+/root/oauth2/original/OAuth2/test/CMakeFiles/oauth_test.dir

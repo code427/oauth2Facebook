@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/oauth2/original/OAuth2/src/curl_request.c
+curl_request.h
+/root/oauth2/original/OAuth2/src/curl_request.h
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+curl/curl.h
+-
+
+/root/oauth2/original/OAuth2/src/oauth2.c
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+assert.h
+-
+oauth2.h
+/root/oauth2/original/OAuth2/src/oauth2.h
+curl_request.h
+/root/oauth2/original/OAuth2/src/curl_request.h
+
+include/curl_request.h
+
+include/oauth2.h
+

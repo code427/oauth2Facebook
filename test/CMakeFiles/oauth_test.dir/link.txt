@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/oauth_test.dir/main.c.o  -o ../oauth_test -rdynamic ../src/liboauth.so -lcurl -Wl,-rpath,/root/oauth2/original/OAuth2/src 

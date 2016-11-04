@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC    -shared -Wl,-soname,liboauth.so -o liboauth.so CMakeFiles/oauth.dir/oauth2.c.o CMakeFiles/oauth.dir/curl_request.c.o -lcurl 
